@@ -6,19 +6,11 @@
   <title>Comé mejor sin vivir a dieta - Sistema Práctico de Hábitos</title>
   <meta name="description" content="Sistema integral para ayudar a personas adultas a ordenar su alimentación, moverse más, descansar mejor y regular la ansiedad sin dietas rígidas ni culpa.">
   
-  <!-- Open Graph -->
   <meta property="og:title" content="Comé mejor sin vivir a dieta">
   <meta property="og:description" content="No necesitás otra dieta. Necesitás un sistema de hábitos que puedas sostener.">
   <meta property="og:type" content="website">
 
-  <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- FontAwesome for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,510 +22,375 @@
         <a href="#hero">Comé mejor.</a>
       </div>
       
-      <!-- Mobile Menu Toggle -->
       <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menú">
-        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bars-staggered"></i>
       </button>
 
       <nav class="nav" id="main-nav">
         <ul class="nav-list">
           <li><a href="#que-incluye" class="nav-link">Qué incluye</a></li>
           <li><a href="#para-quien" class="nav-link">Para quién es</a></li>
-          <li><a href="#precios" class="nav-link">Precio</a></li>
           <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#precios" class="btn btn-sm btn-primary">Adquirir el kit</a></li>
         </ul>
-        <a href="#precios" class="btn btn-sm btn-primary">Quiero empezar</a>
       </nav>
     </div>
   </header>
 
   <main>
     <!-- Hero Section -->
-    <section class="hero" id="hero">
-      <div class="container hero-container">
+    <section class="hero bg-cream" id="hero">
+      <div class="container grid grid-2" style="align-items: center;">
+        
         <div class="hero-content">
-          <span class="badge">Nuevo Kit Digital</span>
-          <h1 class="hero-title">Comé mejor sin vivir a dieta</h1>
-          <p class="hero-subtitle">Un sistema práctico para ordenar tu alimentación, moverte más, descansar mejor y sostener hábitos saludables sin rigidez, culpa ni exigencias imposibles.</p>
-          <p class="hero-text"><strong>No necesitás otra dieta. Necesitás un sistema que puedas sostener en la vida real.</strong></p>
+          <span class="badge"><i class="fa-solid fa-leaf"></i> Kit digital de hábitos saludables</span>
+          <h1 class="title-xl text-dark">Comé mejor sin<br>vivir a dieta</h1>
+          <p class="hero-subtitle">Un sistema práctico para ordenar tu alimentación, moverte más y descansar mejor.</p>
+          <p class="hero-text editorial-text" style="margin-left: 0;">No necesitás otra dieta rígida, culpa ni exigencias imposibles. Necesitás un sistema que puedas sostener en la vida real.</p>
           
           <div class="hero-cta">
-            <a href="#precios" class="btn btn-lg btn-primary">Quiero el kit — USD 15</a>
-            <a href="#precios" class="btn btn-lg btn-outline">Quiero kit + orientación — USD 40</a>
+            <div>
+              <a href="#precios" class="btn btn-full btn-primary">Quiero el kit — USD 15</a>
+              <span class="microcopy">Acceso inmediato · Material descargable · Garantía 7 días</span>
+            </div>
+            <div>
+              <a href="#precios" class="btn btn-full btn-secondary">Kit + Orientación — USD 40</a>
+              <span class="microcopy">Plan personalizado 1 a 1</span>
+            </div>
           </div>
         </div>
-        <div class="hero-visual">
-          <!-- Placeholder Mockup -->
-          <div class="mockup-container">
-            <img src="https://placehold.co/600x500/FAF7F0/24323D?text=Mockup+Kit+Digital\n(PDF,+Workbook,+Recetario)" alt="Mockup Kit Digital Comé mejor sin vivir a dieta" class="mockup-img">
-          </div>
+
+        <div class="mockup-wrapper">
+          <img src="https://placehold.co/800x1000/FBF6EF/24323D?text=PDF+Principal" alt="PDF Principal" class="stack-item stack-1">
+          <img src="https://placehold.co/800x1000/EBF1ED/7FAF8B?text=Workbook" alt="Workbook" class="stack-item stack-2">
+          <img src="https://placehold.co/800x1000/E8DED2/E6A85C?text=Recetario" alt="Recetario" class="stack-item stack-3">
         </div>
+
       </div>
     </section>
 
     <!-- Problema Section -->
-    <section class="problema" id="problema">
+    <section class="bg-white" id="problema">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title">Comer mejor, moverte y cuidarte no debería sentirse tan complicado</h2>
-          <p class="section-desc">Tal vez ya sabés muchas cosas. Sabés que te haría bien comer mejor, moverte un poco más, dormir mejor y organizarte. Pero una cosa es saberlo. Otra muy distinta es sostenerlo cuando aparece el cansancio, la ansiedad, el bajón, la falta de tiempo o el famoso "ya fue".</p>
+          <h2 class="title-lg">Cuidarte no debería sentirse tan complicado</h2>
+          <p class="editorial-text section-desc">Tal vez ya sabés muchas cosas. Sabés que te haría bien comer mejor, moverte un poco más, dormir mejor y organizarte. Pero una cosa es saberlo. Otra muy distinta es sostenerlo cuando aparece el cansancio, la ansiedad, el bajón, la falta de tiempo o el famoso "ya fue".</p>
         </div>
 
-        <div class="grid grid-3">
+        <div class="grid grid-3 mt-4">
           <div class="card card-problem">
-            <div class="card-icon"><i class="fa-solid fa-person-walking-arrow-loop-left"></i></div>
+            <div class="card-icon-wrap"><i class="fa-solid fa-rotate-left"></i></div>
             <p>"Sé lo que tengo que hacer, pero no lo sostengo."</p>
           </div>
           <div class="card card-problem">
-            <div class="card-icon"><i class="fa-regular fa-calendar-xmark"></i></div>
+            <div class="card-icon-wrap"><i class="fa-regular fa-calendar-xmark"></i></div>
             <p>"Arranco el lunes y después abandono."</p>
           </div>
           <div class="card card-problem">
-            <div class="card-icon"><i class="fa-solid fa-face-frown-open"></i></div>
+            <div class="card-icon-wrap"><i class="fa-solid fa-bolt"></i></div>
             <p>"Como distinto cuando estoy ansioso/a."</p>
           </div>
           <div class="card card-problem">
-            <div class="card-icon"><i class="fa-solid fa-chart-line-down"></i></div>
+            <div class="card-icon-wrap"><i class="fa-solid fa-chart-line-down"></i></div>
             <p>"Me falta constancia."</p>
           </div>
           <div class="card card-problem">
-            <div class="card-icon"><i class="fa-solid fa-bed"></i></div>
+            <div class="card-icon-wrap"><i class="fa-solid fa-bed"></i></div>
             <p>"Duermo mal y después tomo peores decisiones."</p>
           </div>
           <div class="card card-problem">
-            <div class="card-icon"><i class="fa-solid fa-link-slash"></i></div>
+            <div class="card-icon-wrap"><i class="fa-solid fa-link-slash"></i></div>
             <p>"Cuando rompo el plan, siento que ya arruiné todo."</p>
           </div>
         </div>
 
-        <div class="section-footer text-center">
-          <p class="highlight-text">No es falta de voluntad. Muchas veces falta sistema.</p>
+        <div class="text-center mt-4">
+          <h3 class="title-md text-sage" style="margin-top: 3rem;">No es falta de voluntad. Muchas veces falta sistema.</h3>
         </div>
       </div>
     </section>
 
     <!-- Propuesta Section -->
-    <section class="propuesta" id="propuesta">
+    <section class="propuesta text-center" id="propuesta">
       <div class="container">
-        <div class="propuesta-content text-center">
-          <h2 class="section-title">No necesitás vivir a dieta. Necesitás ordenar tus hábitos.</h2>
-          <p class="section-desc max-w-lg">Este kit digital te ayuda a construir hábitos más saludables integrando alimentación práctica, recetas, meal prep, psiconutrición, regulación emocional, mindfulness, descanso, ejercicio físico y herramientas de seguimiento con IA.</p>
-        </div>
+        <h2 class="title-lg">No necesitás vivir a dieta.<br>Necesitás ordenar tus hábitos.</h2>
+        <p class="editorial-text section-desc mt-4">Este kit digital te ayuda a construir hábitos más saludables integrando alimentación práctica, recetas, meal prep, psiconutrición, regulación emocional, mindfulness, descanso, ejercicio físico y herramientas de seguimiento con IA.</p>
       </div>
     </section>
 
     <!-- Pilares Section -->
-    <section class="pilares bg-light" id="pilares">
+    <section class="bg-cream" id="pilares">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title">Un sistema integral para hábitos saludables</h2>
+          <h2 class="title-lg">Un sistema integral</h2>
         </div>
 
-        <div class="grid grid-2">
+        <div class="grid grid-2 mt-4">
           <div class="card card-pilar">
-            <div class="card-header">
-              <span class="pilar-num">01</span>
-              <h3>Alimentación práctica</h3>
-            </div>
+            <span class="pilar-num">01</span>
+            <h3 class="title-md">Alimentación práctica</h3>
             <p>Nutrición básica, armado de platos, recetas, meal prep, lista de compras y organización del entorno.</p>
           </div>
-          
           <div class="card card-pilar">
-            <div class="card-header">
-              <span class="pilar-num">02</span>
-              <h3>Psiconutrición y conducta alimentaria</h3>
-            </div>
+            <span class="pilar-num">02</span>
+            <h3 class="title-md">Psiconutrición</h3>
             <p>Hambre física, hambre emocional, antojos, impulsos, culpa, pensamientos permisivos y adherencia.</p>
           </div>
-
           <div class="card card-pilar">
-            <div class="card-header">
-              <span class="pilar-num">03</span>
-              <h3>Movimiento, descanso y energía</h3>
-            </div>
+            <span class="pilar-num">03</span>
+            <h3 class="title-md">Movimiento y descanso</h3>
             <p>Ejercicio físico, movimiento diario, NEAT, sueño, higiene del descanso y planes mínimos para días reales.</p>
           </div>
-
           <div class="card card-pilar">
-            <div class="card-header">
-              <span class="pilar-num">04</span>
-              <h3>Organización, seguimiento e IA</h3>
-            </div>
+            <span class="pilar-num">04</span>
+            <h3 class="title-md">Organización e IA</h3>
             <p>Checklists, registros, prompts de IA, detección de patrones y ajustes sin obsesión.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Qué Incluye Section -->
-    <section class="que-incluye" id="que-incluye">
+    <!-- Qué Incluye Section & Preview -->
+    <section class="bg-white" id="que-incluye">
       <div class="container">
-        <div class="section-header text-center">
-          <h2 class="section-title">Todo lo que necesitás para empezar a ordenar tus hábitos</h2>
-        </div>
-
-        <div class="grid grid-3 includes-grid">
-          <div class="include-item"><i class="fa-solid fa-file-pdf"></i> Guía principal en PDF</div>
-          <div class="include-item"><i class="fa-solid fa-book-open"></i> Workbook de actividades</div>
-          <div class="include-item"><i class="fa-solid fa-utensils"></i> Recetario práctico</div>
-          <div class="include-item"><i class="fa-solid fa-calendar-days"></i> Plantillas de meal prep</div>
-          <div class="include-item"><i class="fa-solid fa-cart-shopping"></i> Lista de compras</div>
-          <div class="include-item"><i class="fa-solid fa-list-check"></i> Checklist semanal</div>
-          <div class="include-item"><i class="fa-solid fa-robot"></i> Prompts de IA</div>
-          <div class="include-item"><i class="fa-solid fa-brain"></i> Materiales psicoeducativos</div>
-          <div class="include-item"><i class="fa-solid fa-leaf"></i> Herramientas de mindfulness</div>
-          <div class="include-item"><i class="fa-solid fa-bed-pulse"></i> Estrategias descanso y ejercicio</div>
-          <div class="include-item"><i class="fa-solid fa-shield-halved"></i> Protocolos para momentos críticos</div>
+        <div class="grid grid-2" style="align-items: center; gap: 4rem;">
+          <div>
+            <h2 class="title-lg mb-2">Todo lo que recibís</h2>
+            <p class="editorial-text" style="margin-left: 0; margin-bottom: 2rem;">Un paquete de recursos listos para descargar y aplicar hoy mismo.</p>
+            
+            <div class="include-item"><i class="fa-solid fa-file-pdf"></i> Guía principal en PDF (Lectura)</div>
+            <div class="include-item"><i class="fa-solid fa-pen-nib"></i> Workbook de actividades (Práctica)</div>
+            <div class="include-item"><i class="fa-solid fa-utensils"></i> Recetario y plantillas Meal Prep</div>
+            <div class="include-item"><i class="fa-solid fa-list-check"></i> Checklist semanal y listas de compras</div>
+            <div class="include-item"><i class="fa-solid fa-robot"></i> Biblioteca de Prompts de IA</div>
+            <div class="include-item"><i class="fa-solid fa-brain"></i> Ejercicios de Mindfulness y Descanso</div>
+          </div>
+          
+          <div class="preview-showcase text-center">
+             <img src="https://placehold.co/800x600/FFFFFF/24323D?text=Vista+Previa+Interior+del+Kit" alt="Vista previa del contenido" style="border-radius: 16px; box-shadow: var(--shadow-md);">
+             <p class="microcopy mt-4 text-dark">Diseño limpio y amigable para leer en cualquier dispositivo.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Módulos Section -->
-    <section class="modulos bg-light" id="modulos">
+    <section class="bg-sage-light" id="modulos">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title">Qué vas a trabajar dentro del kit</h2>
+          <h2 class="title-lg">Qué vas a trabajar</h2>
+          <p class="editorial-text section-desc">El paso a paso que encontrarás dentro de la guía.</p>
         </div>
 
-        <div class="accordion-container">
-          <!-- Accordion Items will go here -->
+        <div class="accordion-container mt-4">
           <div class="accordion-item">
             <button class="accordion-btn">1. Nutrición básica sin confusión <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>Aprendé los pilares de la nutrición sin tecnicismos. Entendé cómo funcionan los macronutrientes y qué necesita tu cuerpo sin volverte loco contando calorías.</p>
-            </div>
+            <div class="accordion-content"><p>Aprendé los pilares de la nutrición sin tecnicismos. Entendé cómo funcionan los macronutrientes y qué necesita tu cuerpo sin volverte loco contando calorías.</p></div>
           </div>
           <div class="accordion-item">
-            <button class="accordion-btn">2. Recetas y lógica para armar comidas <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>El paso a paso visual y sencillo para estructurar desayunos, almuerzos, meriendas y cenas equilibradas. Incluye un recetario adaptable a tus gustos.</p>
-            </div>
+            <button class="accordion-btn">2. Recetas y armado de comidas <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="accordion-content"><p>El paso a paso visual y sencillo para estructurar comidas equilibradas. Incluye un recetario adaptable.</p></div>
           </div>
           <div class="accordion-item">
-            <button class="accordion-btn">3. Meal prep, compras y organización del entorno <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>Estrategias para no perder horas en la cocina. Cómo organizar tu heladera, hacer compras inteligentes y modificar tu entorno para facilitar tus hábitos.</p>
-            </div>
+            <button class="accordion-btn">3. Meal prep y entorno <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="accordion-content"><p>Estrategias para no perder horas en la cocina. Cómo organizar tu heladera, hacer compras inteligentes y modificar tu entorno.</p></div>
           </div>
           <div class="accordion-item">
             <button class="accordion-btn">4. Psiconutrición básica <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>Entendé la diferencia entre hambre física, hambre emocional y antojos. Desarrollá herramientas para gestionar el acto de comer con más consciencia y menos culpa.</p>
-            </div>
+            <div class="accordion-content"><p>Diferencia entre hambre física, emocional y antojos. Desarrollá herramientas para gestionar el acto de comer con más consciencia y menos culpa.</p></div>
           </div>
           <div class="accordion-item">
-            <button class="accordion-btn">5. Señales de alerta en la relación con la comida <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>Identificá la mentalidad de dieta, los pensamientos de todo o nada y el ciclo restricción-atracón para poder salir de ellos.</p>
-            </div>
+            <button class="accordion-btn">5. Herramientas de constancia <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="accordion-content"><p>Qué hacer cuando baja la motivación. Estrategias conductuales para mantener la constancia en el tiempo real.</p></div>
           </div>
           <div class="accordion-item">
-            <button class="accordion-btn">6. Herramientas psicológicas para sostener hábitos <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>Qué hacer cuando baja la motivación. Estrategias conductuales para mantener la constancia en el tiempo real, lidiando con imprevistos.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">7. Mindfulness aplicado a la alimentación <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>Técnicas prácticas para comer con atención plena, registrar tu saciedad y disfrutar más de tus comidas sin automatismos.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">8. Descanso, energía y hábitos <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>El impacto del sueño en tu peso y tus decisiones alimentarias. Rutinas de higiene del sueño para mejorar tu descanso y tus niveles de energía.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">9. Ejercicio físico y movimiento <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>Cómo incorporar el movimiento a tu vida sin necesidad de entrenamientos extenuantes. Diferencia entre ejercicio formal y movimiento incidental (NEAT).</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">10. IA, registros y seguimiento <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content">
-              <p>Aprovechá la Inteligencia Artificial a tu favor con prompts diseñados para analizar patrones, generar ideas y mantener un seguimiento amigable sin obsesionarte.</p>
-            </div>
+            <button class="accordion-btn">6. Descanso, ejercicio e IA <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="accordion-content"><p>El impacto del sueño, cómo moverte sin castigarte y cómo usar Inteligencia Artificial para acompañar tus hábitos.</p></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Vista Previa -->
-    <section class="vista-previa" id="vista-previa">
-      <div class="container text-center">
-        <h2 class="section-title">Una guía clara, visual y aplicable</h2>
-        <p class="section-desc max-w-lg">No es un PDF para guardar y olvidar. Es una caja de herramientas para consultar, aplicar, ajustar y volver a usar cada vez que lo necesites.</p>
-        
-        <div class="grid grid-3 mockup-grid mt-4">
-          <img src="https://placehold.co/400x500/FAF7F0/24323D?text=PDF+Principal" alt="Vista interior del PDF" class="mockup-img">
-          <img src="https://placehold.co/400x500/FAF7F0/24323D?text=Workbook+Práctico" alt="Vista del Workbook" class="mockup-img">
-          <img src="https://placehold.co/400x500/FAF7F0/24323D?text=Recetario+y+Prompts" alt="Vista del Recetario" class="mockup-img">
-        </div>
-      </div>
-    </section>
-
-    <!-- Para quién es y no es -->
-    <section class="para-quien bg-light" id="para-quien">
+    <!-- Para quién es -->
+    <section class="bg-cream" id="para-quien">
       <div class="container">
-        <div class="grid grid-2">
-          <!-- Para quién es -->
-          <div class="card card-quien-es">
-            <h3 class="card-title text-green"><i class="fa-solid fa-circle-check"></i> Este kit es para vos si…</h3>
-            <ul class="checklist">
-              <li><i class="fa-solid fa-check"></i> Querés mejorar tus hábitos sin vivir a dieta.</li>
-              <li><i class="fa-solid fa-check"></i> Querés comer mejor, pero no querés caer en rigidez.</li>
-              <li><i class="fa-solid fa-check"></i> Necesitás organizar tus comidas.</li>
-              <li><i class="fa-solid fa-check"></i> Te cuesta sostener cambios cuando baja la motivación.</li>
-              <li><i class="fa-solid fa-check"></i> Comés distinto cuando estás ansioso/a, cansado/a o bajoneado/a.</li>
-              <li><i class="fa-solid fa-check"></i> Querés recetas simples y adaptables.</li>
-              <li><i class="fa-solid fa-check"></i> Querés moverte más, pero te cuesta empezar.</li>
-              <li><i class="fa-solid fa-check"></i> Sabés que dormir mejor te ayudaría, pero no tenés una rutina.</li>
-              <li><i class="fa-solid fa-check"></i> Querés usar IA para acompañar tus hábitos de forma inteligente.</li>
-            </ul>
+        <div class="grid grid-2" style="gap: 3rem;">
+          
+          <div class="card card-quien card-quien-es">
+            <h3 class="title-md mb-2 text-sage">Este kit es para vos si…</h3>
+            <div class="mt-4">
+              <div class="checklist-item"><div class="check-icon"><i class="fa-solid fa-check"></i></div><p>Querés comer mejor, pero no querés caer en dietas rígidas.</p></div>
+              <div class="checklist-item"><div class="check-icon"><i class="fa-solid fa-check"></i></div><p>Necesitás organizar tus comidas y compras fácilmente.</p></div>
+              <div class="checklist-item"><div class="check-icon"><i class="fa-solid fa-check"></i></div><p>Te cuesta sostener cambios cuando baja la motivación o estás ansioso/a.</p></div>
+              <div class="checklist-item"><div class="check-icon"><i class="fa-solid fa-check"></i></div><p>Querés moverte más y dormir mejor, pero no tenés una rutina clara.</p></div>
+            </div>
           </div>
           
-          <!-- Para quién no es -->
-          <div class="card card-quien-no">
-            <h3 class="card-title text-red"><i class="fa-solid fa-circle-xmark"></i> Este kit no es para vos si…</h3>
-            <ul class="crosslist">
-              <li><i class="fa-solid fa-xmark"></i> Buscás una dieta extrema.</li>
-              <li><i class="fa-solid fa-xmark"></i> Querés una solución mágica sin aplicar nada.</li>
-              <li><i class="fa-solid fa-xmark"></i> Querés reglas rígidas sobre alimentos permitidos y prohibidos.</li>
-              <li><i class="fa-solid fa-xmark"></i> Necesitás un tratamiento médico, nutricional o psicoterapéutico personalizado.</li>
-              <li><i class="fa-solid fa-xmark"></i> Presentás señales claras de un trastorno de la conducta alimentaria y necesitás atención especializada.</li>
-              <li><i class="fa-solid fa-xmark"></i> Querés controlar cada detalle de tu alimentación de forma obsesiva.</li>
-            </ul>
+          <div class="card card-quien card-quien-no">
+            <h3 class="title-md mb-2" style="color: #B0555C;">Este kit NO es para vos si…</h3>
+            <div class="mt-4">
+              <div class="checklist-item"><div class="cross-icon"><i class="fa-solid fa-xmark"></i></div><p>Buscás una dieta extrema, mágica o reglas rígidas sobre alimentos prohibidos.</p></div>
+              <div class="checklist-item"><div class="cross-icon"><i class="fa-solid fa-xmark"></i></div><p>Necesitás un tratamiento médico, nutricional o psicoterapéutico personalizado.</p></div>
+              <div class="checklist-item"><div class="cross-icon"><i class="fa-solid fa-xmark"></i></div><p>Presentás señales claras de un trastorno de la conducta alimentaria.</p></div>
+            </div>
           </div>
+          
         </div>
       </div>
     </section>
 
-    <!-- Diferencial Profesional -->
-    <section class="diferencial" id="diferencial">
-      <div class="container text-center">
-        <h2 class="section-title">Un enfoque práctico, psicológico y humano</h2>
-        <p class="section-desc max-w-lg">Muchas propuestas sobre hábitos se quedan en frases motivacionales. Otras se vuelven demasiado técnicas. Y otras te hacen sentir que el problema sos vos. Este kit parte de otra idea: no siempre fallamos por falta de información. Muchas veces fallamos porque el sistema que intentamos sostener no encaja con nuestra vida real.</p>
+    <!-- Diferencial -->
+    <section class="bg-white text-center" id="diferencial">
+      <div class="container">
+        <h2 class="title-lg">Un enfoque humano</h2>
+        <p class="editorial-text section-desc mt-4 mb-4">No siempre fallamos por falta de información. Muchas veces fallamos porque el sistema que intentamos sostener no encaja con nuestra vida real. Por eso, este kit une:</p>
         
-        <div class="tags-container mt-4">
-          <span class="tag">Alimentación práctica</span>
-          <span class="tag">Psicología conductual</span>
-          <span class="tag">Regulación emocional</span>
-          <span class="tag">Organización del entorno</span>
-          <span class="tag">Descanso</span>
-          <span class="tag">Ejercicio físico</span>
-          <span class="tag">Mindfulness</span>
-          <span class="tag">Prevención de recaídas</span>
-          <span class="tag">Uso estratégico de IA</span>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; max-width: 800px; margin: 0 auto;">
+          <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Nutrición práctica</span>
+          <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Psicología conductual</span>
+          <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Regulación emocional</span>
+          <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Organización</span>
         </div>
       </div>
     </section>
 
     <!-- Precios -->
-    <section class="precios bg-light" id="precios">
+    <section class="bg-cream" id="precios">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title">Elegí cómo querés empezar</h2>
+          <h2 class="title-lg">Comenzá a ordenar tus hábitos</h2>
+          <p class="editorial-text section-desc">Elegí el formato que mejor se adapte a tu necesidad.</p>
         </div>
 
-        <div class="pricing-grid">
-          <!-- Card 1 -->
-          <div class="card pricing-card">
-            <div class="pricing-header">
-              <h3 class="pricing-title">Kit digital completo</h3>
-              <div class="pricing-price">USD 15</div>
-              <p class="pricing-desc">Ideal si querés empezar por tu cuenta y tener todo el material para ordenar tus hábitos a tu ritmo.</p>
-            </div>
-            <div class="pricing-body">
-              <ul class="pricing-features">
-                <li><i class="fa-solid fa-check"></i> Guía principal en PDF.</li>
-                <li><i class="fa-solid fa-check"></i> Workbook de actividades.</li>
-                <li><i class="fa-solid fa-check"></i> Recetario.</li>
-                <li><i class="fa-solid fa-check"></i> Plantillas de meal prep.</li>
-                <li><i class="fa-solid fa-check"></i> Lista de compras.</li>
-                <li><i class="fa-solid fa-check"></i> Checklist semanal.</li>
-                <li><i class="fa-solid fa-check"></i> Prompts de IA.</li>
-                <li><i class="fa-solid fa-check"></i> Herramientas de psiconutrición.</li>
-                <li><i class="fa-solid fa-check"></i> Recursos de mindfulness.</li>
-                <li><i class="fa-solid fa-check"></i> Estrategias de descanso y movimiento.</li>
-              </ul>
-            </div>
-            <div class="pricing-footer">
-              <a href="#" class="btn btn-primary btn-full">Quiero el kit digital</a>
-            </div>
+        <div class="pricing-grid mt-4">
+          
+          <!-- Base -->
+          <div class="pricing-card text-center">
+            <h3 class="title-md">Kit Digital Completo</h3>
+            <div class="price-display"><span>USD</span>15</div>
+            <p class="text-body" style="font-size: 0.95rem;">Para avanzar a tu propio ritmo.</p>
+            
+            <ul class="pricing-list">
+              <li><i class="fa-solid fa-check"></i> Guía principal en PDF y Workbook</li>
+              <li><i class="fa-solid fa-check"></i> Recetario y plantillas de meal prep</li>
+              <li><i class="fa-solid fa-check"></i> Listas de compras y checklist semanal</li>
+              <li><i class="fa-solid fa-check"></i> Prompts de IA y recursos de psiconutrición</li>
+            </ul>
+            
+            <a href="#" class="btn btn-full btn-secondary">Adquirir el kit</a>
+            <span class="microcopy">Acceso de por vida</span>
           </div>
 
-          <!-- Card 2 -->
-          <div class="card pricing-card highlight-card">
-            <div class="badge-top">Opción Recomendada</div>
-            <div class="pricing-header">
-              <h3 class="pricing-title">Kit + orientación personalizada</h3>
-              <div class="pricing-price">USD 40</div>
-              <p class="pricing-desc">Ideal si querés recibir el kit y además tener una sesión individual para aplicarlo mejor a tu caso.</p>
+          <!-- Premium -->
+          <div class="pricing-card premium text-center">
+            <div class="pricing-badge">Recomendado</div>
+            <h3 class="title-md text-dark">Kit + Orientación Individual</h3>
+            <div class="price-display"><span>USD</span>40</div>
+            
+            <div class="pricing-quote">
+              "El kit te da el mapa. La orientación te ayuda a aplicarlo a tu caso exacto."
             </div>
-            <div class="pricing-body">
-              <ul class="pricing-features">
-                <li><i class="fa-solid fa-check"></i> <strong>Todo lo del kit digital.</strong></li>
-                <li><i class="fa-solid fa-check"></i> Una orientación personalizada.</li>
-                <li><i class="fa-solid fa-check"></i> Revisión de situación actual.</li>
-                <li><i class="fa-solid fa-check"></i> Detección de obstáculos principales.</li>
-                <li><i class="fa-solid fa-check"></i> Priorización de objetivos.</li>
-                <li><i class="fa-solid fa-check"></i> Primeros pasos concretos.</li>
-                <li><i class="fa-solid fa-check"></i> Adaptación del sistema a tu contexto.</li>
-              </ul>
-              <div class="pricing-quote">
-                "El kit te da el mapa. La orientación te ayuda a aplicarlo a tu caso."
-              </div>
-            </div>
-            <div class="pricing-footer">
-              <a href="#" class="btn btn-secondary btn-full">Quiero kit + orientación</a>
-            </div>
+            
+            <ul class="pricing-list">
+              <li><i class="fa-solid fa-check"></i> <strong>Todo el material del Kit Digital</strong></li>
+              <li><i class="fa-solid fa-check"></i> <strong>1 Sesión de Orientación (45 min)</strong></li>
+              <li><i class="fa-solid fa-check"></i> Revisión de tu situación actual</li>
+              <li><i class="fa-solid fa-check"></i> Priorización de objetivos y primeros pasos</li>
+              <li><i class="fa-solid fa-check"></i> Adaptación del sistema a tu contexto</li>
+            </ul>
+            
+            <a href="#" class="btn btn-full btn-primary">Quiero Kit + Orientación</a>
+            <span class="microcopy">Agendá tu sesión inmediatamente</span>
           </div>
-        </div>
 
-        <!-- Comparación -->
-        <div class="comparacion text-center mt-4">
-          <h3>¿Qué opción me conviene?</h3>
-          <p class="max-w-lg mx-auto">Si querés avanzar a tu ritmo, elegí el kit digital completo. Si sentís que necesitás ordenar tu caso, priorizar objetivos y bajar todo a un plan más concreto, elegí kit + orientación personalizada.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- Garantía -->
-    <section class="garantia" id="garantia">
-      <div class="container text-center">
-        <div class="garantia-icon"><i class="fa-solid fa-shield-check"></i></div>
-        <h2 class="section-title">Probalo durante 7 días</h2>
-        <p class="section-desc max-w-lg">Quiero que el material te resulte claro, útil y aplicable. Por eso tenés 7 días para revisarlo. Si sentís que no era lo que esperabas, podés pedir la devolución.</p>
       </div>
     </section>
 
     <!-- FAQ -->
-    <section class="faq bg-light" id="faq">
+    <section class="bg-white" id="faq">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title">Preguntas Frecuentes</h2>
+          <h2 class="title-lg">Preguntas Frecuentes</h2>
         </div>
 
-        <div class="accordion-container">
+        <div class="accordion-container mt-4">
           <div class="accordion-item">
             <button class="accordion-btn">¿Esto es una dieta? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>No. Es un sistema integral de hábitos. No prohíbe alimentos ni te da menús rígidos; te enseña a armar tus propias comidas y a mejorar tu relación con la comida.</p></div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">¿Me va a decir exactamente qué tengo que comer todos los días? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>No te dará un menú estricto de "lunes a domingo". Te dará las herramientas y la lógica para que vos mismo/a puedas armar tus comidas usando lo que tenés, de manera flexible.</p></div>
+            <div class="accordion-content"><p>No. Es un sistema integral de hábitos. No prohíbe alimentos ni te da menús rígidos; te enseña a armar tus propias comidas.</p></div>
           </div>
           <div class="accordion-item">
             <button class="accordion-btn">¿Sirve si no tengo tiempo para cocinar? <i class="fa-solid fa-chevron-down"></i></button>
             <div class="accordion-content"><p>Sí, uno de los módulos incluye estrategias de "meal prep" y organización para personas con poco tiempo.</p></div>
           </div>
           <div class="accordion-item">
-            <button class="accordion-btn">¿Incluye recetas? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>Sí, incluye un recetario práctico con ideas simples para el día a día.</p></div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">¿También habla de ejercicio físico? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>Sí, abordamos el movimiento diario y el ejercicio, no como un castigo, sino como parte de un estilo de vida sostenible.</p></div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">¿También trabaja el descanso? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>Absolutamente. El descanso es un pilar fundamental para regular la energía y las hormonas relacionadas con el hambre y la saciedad.</p></div>
-          </div>
-          <div class="accordion-item">
             <button class="accordion-btn">¿Qué tiene de psicológico? <i class="fa-solid fa-chevron-down"></i></button>
             <div class="accordion-content"><p>Aborda la psiconutrición, herramientas para entender el hambre emocional, la ansiedad, la culpa y cómo superar el pensamiento de "todo o nada".</p></div>
           </div>
           <div class="accordion-item">
-            <button class="accordion-btn">¿Sirve si tengo ansiedad con la comida? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>Sí, te brindará herramientas iniciales de regulación emocional y mindfulness para observar y gestionar esa ansiedad.</p></div>
+            <button class="accordion-btn">¿La orientación personalizada es terapia? <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="accordion-content"><p>No, la sesión de orientación no es psicoterapia. Es un espacio enfocado exclusivamente en revisar tu situación actual respecto a tus hábitos y adaptar las herramientas del kit.</p></div>
           </div>
           <div class="accordion-item">
             <button class="accordion-btn">¿Sirve si tengo un trastorno de la conducta alimentaria? <i class="fa-solid fa-chevron-down"></i></button>
             <div class="accordion-content"><p>No. Este material es psicoeducativo. Si tenés o sospechás tener un TCA, necesitás atención clínica personalizada por profesionales especializados.</p></div>
           </div>
           <div class="accordion-item">
-            <button class="accordion-btn">¿La orientación personalizada es terapia? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>No, la sesión de orientación no es psicoterapia. Es un espacio enfocado exclusivamente en revisar tu situación actual respecto a tus hábitos, detectar obstáculos y adaptar las herramientas del kit a tu caso particular.</p></div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">¿Puedo hacer terapia después? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>Sí, la puerta queda abierta si luego decidís iniciar un proceso terapéutico más profundo, pero el kit y la orientación son independientes.</p></div>
-          </div>
-          <div class="accordion-item">
             <button class="accordion-btn">¿Cómo recibo el material? <i class="fa-solid fa-chevron-down"></i></button>
             <div class="accordion-content"><p>El material es 100% digital. Una vez realizada la compra, recibirás el acceso a los archivos en tu correo electrónico de inmediato.</p></div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">¿Puedo pagarlo en pesos argentinos? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>Sí, dentro de la plataforma de pago encontrarás opciones adaptadas según tu país de residencia.</p></div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">¿Necesito conocimientos previos? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>No, el material está diseñado para ir desde lo más básico hasta la aplicación avanzada, de forma clara y accesible.</p></div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-btn">¿Tengo que usar todo el material de una vez? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="accordion-content"><p>No. Es una caja de herramientas. Podés empezar por el módulo que más necesites y volver al material a tu propio ritmo.</p></div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Aclaración Ética -->
-    <section class="etica" id="etica">
-      <div class="container text-center">
-        <h2 class="section-title">Aclaración importante</h2>
-        <p class="section-desc max-w-lg etica-text">Este material es educativo y psicoeducativo. No reemplaza una consulta médica, nutricional ni psicoterapéutica. No promete curar obesidad, ansiedad, depresión, trastornos de la conducta alimentaria ni ninguna condición clínica. Si presentás atracones frecuentes, conductas compensatorias, restricción extrema, miedo intenso a engordar, pérdida significativa de peso, culpa intensa o malestar importante con comida o cuerpo, se recomienda pedir ayuda profesional especializada.</p>
-      </div>
-    </section>
-
-    <!-- CTA Final -->
-    <section class="cta-final text-center" id="cta-final">
-      <div class="container">
-        <h2 class="section-title">Construí hábitos saludables sin vivir a dieta</h2>
-        <p class="section-desc max-w-lg mx-auto">Comer mejor es importante. Pero no alcanza. También necesitás dormir mejor, moverte más, organizarte, regular la ansiedad y tener un plan para volver al camino cuando las cosas se desordenan.</p>
-        <div class="cta-buttons mt-4">
-          <a href="#precios" class="btn btn-lg btn-primary">Quiero el kit — USD 15</a>
-          <a href="#precios" class="btn btn-lg btn-outline">Quiero kit + orientación — USD 40</a>
-        </div>
+    <section class="bg-cream" style="padding: 4rem 0; border-top: 1px solid var(--border-soft);">
+      <div class="container text-center editorial-text">
+        <h3 class="title-md mb-2">Aclaración importante</h3>
+        <p style="font-size: 0.9rem; color: var(--text-light);">Este material es educativo y psicoeducativo. No reemplaza una consulta médica, nutricional ni psicoterapéutica. No promete curar obesidad, ansiedad, depresión, trastornos de la conducta alimentaria ni ninguna condición clínica. Si presentás atracones frecuentes, conductas compensatorias, restricción extrema, miedo intenso a engordar, pérdida significativa de peso, culpa intensa o malestar importante con comida o cuerpo, se recomienda pedir ayuda profesional especializada.</p>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="container footer-container">
-      <div class="footer-info">
-        <h3>Comé mejor sin vivir a dieta.</h3>
-        <p>Sistema práctico de hábitos saludables: alimentación, movimiento, descanso y regulación emocional.</p>
-        <p class="professional-name">Lic. Pablo Enzenhofer</p>
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <div class="footer-logo">Comé mejor.</div>
+          <p class="footer-text max-w-lg mb-2">Sistema práctico de hábitos saludables: alimentación, movimiento, descanso y regulación emocional.</p>
+          <p class="text-sage" style="font-weight: 600;">Lic. Pablo Enzenhofer</p>
+        </div>
+        
+        <div class="footer-links" style="display: flex; gap: 3rem; justify-content: flex-end;">
+          <div>
+            <h4>Contacto</h4>
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+              <li><a href="#">Botón de arrepentimiento</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
       
-      <div class="footer-links">
-        <h4>Contacto & Legal</h4>
-        <ul>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-          <li><a href="#"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
-          <li><a href="#">Términos y condiciones</a></li>
-          <li><a href="#">Política de privacidad</a></li>
-          <li><a href="#">Botón de arrepentimiento</a></li>
-        </ul>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Lic. Pablo Enzenhofer. Todos los derechos reservados.</p>
       </div>
-    </div>
-    <div class="footer-bottom text-center">
-      <p>&copy; 2026 Lic. Pablo Enzenhofer. Todos los derechos reservados.</p>
     </div>
   </footer>
 
-  <!-- WhatsApp Floating Button -->
   <a href="#" class="whatsapp-float" aria-label="Contactar por WhatsApp" target="_blank">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
-  <!-- Script (Vite module entry point) -->
   <script type="module" src="/main.js"></script>
 </body>
 </html>
