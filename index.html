@@ -61,8 +61,8 @@
         </div>
 
         <div class="mockup-wrapper">
-          <img src="https://placehold.co/800x1000/FBF6EF/24323D?text=PDF+Principal" alt="PDF Principal" class="stack-item stack-1">
-          <img src="https://placehold.co/800x1000/EBF1ED/7FAF8B?text=Workbook" alt="Workbook" class="stack-item stack-2">
+          <img src="./imagenes/mockup-guia-principal.png" alt="PDF Principal" class="stack-item stack-1">
+          <img src="./imagenes/mindfulness-mockup.png" alt="Workbook Mindfulness" class="stack-item stack-2">
           <img src="https://placehold.co/800x1000/E8DED2/E6A85C?text=Recetario" alt="Recetario" class="stack-item stack-3">
         </div>
 
@@ -240,16 +240,25 @@
     </section>
 
     <!-- Diferencial -->
-    <section class="bg-white text-center" id="diferencial">
-      <div class="container">
-        <h2 class="title-lg">Un enfoque humano</h2>
-        <p class="editorial-text section-desc mt-4 mb-4">No siempre fallamos por falta de información. Muchas veces fallamos porque el sistema que intentamos sostener no encaja con nuestra vida real. Por eso, este kit une:</p>
-        
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; max-width: 800px; margin: 0 auto;">
-          <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Nutrición práctica</span>
-          <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Psicología conductual</span>
-          <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Regulación emocional</span>
-          <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Organización</span>
+    <section class="bg-white" id="diferencial">
+      <div class="container grid grid-2" style="align-items: center; gap: 4rem;">
+        <div>
+          <h2 class="title-lg">Un enfoque humano</h2>
+          <p class="editorial-text section-desc mt-4 mb-4" style="margin-left: 0;">No siempre fallamos por falta de información. Muchas veces fallamos porque el sistema que intentamos sostener no encaja con nuestra vida real. Por eso, este kit une:</p>
+          
+          <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+            <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Nutrición práctica</span>
+            <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Psicología conductual</span>
+            <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Regulación emocional</span>
+            <span class="badge" style="margin:0;"><i class="fa-solid fa-circle-check"></i> Organización</span>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; position: relative;">
+          <!-- Círculo decorativo de fondo -->
+          <div style="position: absolute; width: 300px; height: 300px; background-color: var(--bg-sage-light); border-radius: 50%; bottom: 0; z-index: 0;"></div>
+          <!-- Foto del autor -->
+          <img src="/imagenes/fotosinfondo.png" alt="Lic. Pablo Enzenhofer" style="position: relative; z-index: 1; max-width: 100%; height: auto; max-height: 400px; object-fit: contain; border-radius: 0;">
         </div>
       </div>
     </section>
@@ -391,6 +400,6 @@
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
-  <script type="module" src="/main.js"></script>
+  <script type="module" src="./main.js"></script>
 </body>
 </html>
